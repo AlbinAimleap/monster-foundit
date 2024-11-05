@@ -211,5 +211,4 @@ async def main():
     await scraper.run(Config.QUERIES)
 
 if __name__ == "__main__":
-    scraper = JobScraper()
-    asyncio.run(main())
+    main()
